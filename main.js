@@ -72,6 +72,8 @@ startSlideshow.addEventListener("click", () => {
       "start",
       "stop"
     );
+        updateData(0);
+
   } else {
     slidePreview.classList.remove("go-up");
     slideShown.classList.remove("go-down");

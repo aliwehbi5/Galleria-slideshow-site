@@ -82,6 +82,8 @@ startSlideshow.addEventListener("click", () => {
       slidePreview.classList.add("d-none");
       slideShown.classList.remove("d-none");
       slideShown.classList.add("go-up");
+            slidePreview.classList.remove("go-down");
+
     }, 1000);
     startSlideshow.textContent = startSlideshow.textContent.replace(
       "stop",
